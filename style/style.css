@@ -1,0 +1,161 @@
+@import "./fonts.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "roboto";
+  font-weight: 700;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+.nav_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+}
+.queue {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  padding-top: 20px;
+}
+.news {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+.nav__list {
+  display: flex;
+}
+.nav_list_link a {
+  padding: 15px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  transition: 0.4s;
+}
+
+.header__link a {
+  color: #3a3838;
+}
+
+.nav_list_link a:hover {
+  color: #ef4423;
+}
+
+.main_content {
+  display: flex;
+}
+.content {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.c_1 {
+  font-size: 19px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 4px;
+}
+.c1_txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ebebeb;
+  padding: 4px;
+  padding-bottom: 8px;
+}
+
+.red {
+  background: #b71c1c;
+}
+.violet {
+  background: #6a1b9a;
+}
+.blue {
+  background: #303f9f;
+}
+.green {
+  background: #00695c;
+}
+.main_container {
+}
+.about {
+}
+
+.about_title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3a3838;
+}
+.about__inner {
+  display: flex;
+  gap: 30px;
+}
+
+.about__right,
+.about__img {
+  flex: 1;
+}
+.about__img img {
+  width: 100%;
+}
+.main_title {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3a3838;
+}
+.main_title_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #686868;
+}
+.img {
+}
+
+.about__content {
+  background: #ededed;
+}
+.bg {
+  background: #3a3838;
+}
+.footer__link a {
+  color: #ffffff;
+}
+.footer {
+  margin-top: 50px;
+}
+.nav_c {
+  color: #000000;
+}
+.news_f {
+  color: #ffffff;
+}
